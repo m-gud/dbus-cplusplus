@@ -70,6 +70,7 @@ const char *atomic_type_to_string(char t)
     { 'o', "::DBus::Path" },
     { 'g', "::DBus::Signature" },
     { 'v', "::DBus::Variant" },
+    { 'h', "::DBus::FileDescriptor" },
     { '\0', "" }
   };
   int i;
